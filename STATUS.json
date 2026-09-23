@@ -3,6 +3,7 @@
   "stage": "closed",
   "code": false,
   "plan": "OpenVibe End-to-End Realignment & Implementation Plan, revision 3 (20 Sep 2026)",
-  "updated": "2026-09-22",
-  "decision": "ADR-005: realtime inside OpenVibe.Events"
+  "updated": "2026-09-23",
+  "decision": "ADR-005: realtime inside OpenVibe.Events",
+  "deployment": "none of its own: browser realtime is served by OpenVibe.Events at https://events.openvibe.network/realtime/stream. realtime.openvibe.network still shows an OpenVibe.Sites placeholder and the GitHub repository is not archived (Host compatibility register C-82)"
 }

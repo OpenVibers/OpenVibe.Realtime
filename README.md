@@ -9,7 +9,7 @@
 
 ## Purpose
 
-Reserved for the Realtime runtime if it is operationally useful to split it out of OpenVibe.Events. Until that decision is made, the Realtime gateway is a separately deployable runtime inside OpenVibe.Events; this repository holds the decision record and nothing else.
+Reserved for the Realtime runtime if it ever becomes operationally useful to split it out of OpenVibe.Events. ADR-005 decided against a split for now: the Realtime gateway runs inside OpenVibe.Events (deployed, `https://events.openvibe.network/realtime/stream`), and this repository holds the decision record and nothing else.
 
 ## Owns
 
@@ -48,9 +48,11 @@ Events: `delivery of authorised projections of Events topics`
 
 Extract from product-specific fanout patterns (Live's WebSocket layers) once Events exists.
 
-## Decision pending
+## Decision
 
-ADR-005 (Realtime Topics and Cursor/Resume Model) decides whether this becomes its own service. Do not add code here before that ADR.
+ADR-005 (Realtime Topics and Cursor/Resume Model, accepted 2026-09-22) keeps realtime inside OpenVibe.Events. Do not add code here unless a new ADR reopens the split on measured load.
+
+Not done yet: `realtime.openvibe.network` still shows an OpenVibe.Sites placeholder that advertises this product, and this GitHub repository is not archived (Host compatibility register C-82).
 
 ## Launch rule
 
