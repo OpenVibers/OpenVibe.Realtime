@@ -2,7 +2,7 @@
 
 > Browser delivery plane for events: authorised WS/SSE topics with cursors, resume and presence.
 
-**Status:** placeholder — planning only, no runnable code yet.  
+**Status:** closed by [ADR-005](https://github.com/OpenVibers/OpenVibe.Contracts/blob/main/docs/adr/ADR-005-realtime.md) (2026-09-22): browser realtime runs inside [OpenVibe.Events](https://github.com/OpenVibers/OpenVibe.Events) (`/realtime/stream`, SSE with cursor resume). This repository stays as the decision record and is reopened only if measured load needs an independently scaled delivery process.  
 **Domain:** `realtime.openvibe.network`  
 **Plan:** OpenVibe End-to-End Realignment & Implementation Plan, revision 3 (20 Sep 2026), §2 and §6.2.  
 **License:** AGPL-3.0 (same as every OpenVibe service).

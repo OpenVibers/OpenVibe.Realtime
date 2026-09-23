@@ -1,7 +1,8 @@
 {
   "repository": "OpenVibers/OpenVibe.Realtime",
-  "stage": "placeholder",
+  "stage": "closed",
   "code": false,
   "plan": "OpenVibe End-to-End Realignment & Implementation Plan, revision 3 (20 Sep 2026)",
-  "updated": "2026-09-21"
+  "updated": "2026-09-22",
+  "decision": "ADR-005: realtime inside OpenVibe.Events"
 }
